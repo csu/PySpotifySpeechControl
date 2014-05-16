@@ -11,7 +11,7 @@ class SpeechRecognization(object):
 
         exact_match = {
             'play': ['play'],
-            'pause': ['pause'],
+            'pause': ['pause', 'paws'],
             'volume up': ['volume up', 'louder'],
             'volume down': ['volume down', 'softer', 'quieter'],
             'next': ['next', 'next song', 'skip', 'skip song'],
